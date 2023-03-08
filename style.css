@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}                           /* bu ikisi remi pxli rem çevirme */
+body{
+    font-size: 1.2rem;   
+   
+
+}
+
+.calcuratur {
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 20%;                   /* bu dördü kutuyu ortalamak için*/
+    left: 50%;
+    transform: translate(-50%, -50% ); 
+    margin-top: 20rem;
+    
+}
+.calcuratur-input{
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4cc;
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #333;
+}
+button:hover{
+    background-color: #eaeaea;
+}
+.calcuratur-keys{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    
+    
+}
+
+.operator{
+    color: #337ca3;
+}
+
+.clear {
+    background-color: #f0595f;
+    border-color: #b0353b;
+    color: #fff;
+}
+.clear:hover{
+    background-color: #f17377;
+}
+.equal-sing {
+    
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    grid-area: 2/4/6/5;
+    height: 100%;
+  
+}
+.equal-sing:hover{
+    background-color: #4e9ed4;
+}
