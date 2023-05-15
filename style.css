@@ -9,10 +9,15 @@ html{
 }                           /* bu ikisi remi pxli rem çevirme */
 body{
     font-size: 1.2rem;   
-   
+   background-color: #4c4949;
 
 }
-
+.logo{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c4c4cc;
+}
 .calcuratur {
     border: 1px solid #ccc;
     border-radius: 5px ;
@@ -44,10 +49,11 @@ button {
     border: 1px solid #c4c4cc;
     background-color: transparent;
     font-size: 2.5rem;
-    color: #333;
+    color: #efe4e4;
 }
 button:hover{
     background-color: #eaeaea;
+    color: #252525;
 }
 .calcuratur-keys{
     
