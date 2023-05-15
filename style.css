@@ -9,7 +9,7 @@ html{
 }                           /* bu ikisi remi pxli rem çevirme */
 body{
     font-size: 1.2rem;   
-   background-color: #4c4949;
+   background-color: #212020;
 
 }
 .logo{
@@ -35,7 +35,7 @@ body{
     font-size: 4rem;
     height: 70px;
     border: none;
-    background-color: #252525;
+    background-color: #4c4a4a;
     color: #fff;
     text-align: right;
     padding-left: 20px;
